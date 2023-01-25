@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./img/Logo.png"/>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    
+        <div class="divimg">
+            <img  class="logo" src="./img/Logo.png" alt="logo de aplicacion incriptada"/>
+        </div>
+        <main id="sesion" class="sesiones">
+            <section class="sesionuno">
+                <textarea id="textoingresado" class="text-area" cols="30" rows="10" placeholder="Engrese el texto aqui: " autofocus></textarea>|
+                        <h4>Solo letras minuscula y sin acentos especiales</h4>
+                <div class="contenedor-botones">
+                    <button id="btnencriptar" class="btn-encriptar">Encriptador</button>
+                    <button id="btndesencriptar" class="btn-desencriptar">Desencriptador</button>
+                </div>
+            </section>
+
+            <section class="sesiondos">
+                <div class="contenedormuneco">
+                    <img class="muneco" src="./img/muneco.png" alt="muñeco">
+                </div>
+                <textarea id="textconver" class="mensaje" readonly> </textarea>
+                <button id="btncopiar" class="btn-copiar">Copiar</button>
+            </section>
+        </main>
+    
+    <footer>SANDRO GASCA ESPAÑA</footer>
+</body>
+
+
+<script src='./js/main.js'></script>
+
+</html>

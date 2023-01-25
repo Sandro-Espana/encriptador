@@ -1,0 +1,164 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+
+body {
+     background-color: #5078fa;
+     height: 100vh;
+}
+
+
+
+
+.divimg{
+    width: 100%;
+    text-align: center;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+
+.sesiones{
+    width: 100%x;
+    height: 81%;
+    background-color: black;
+    
+     
+}
+
+.sesionuno{
+    background-color: #5078fa;
+  
+  float: left;
+  width: 50%; /* The width is 20%, by default */ 
+  height: 100%;  
+  text-align: center;   
+}
+
+
+.text-area {
+    width: 60%;
+    height: 75%;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 30px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+}
+
+h4{
+    margin-top: 10px;
+}
+.contenedor-botones {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btn-desencriptar{
+    font-size: 25px;
+    background: #D8DFE8;
+    border: 1px solid #000;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 50px;
+    margin-left: 30px;
+    width: 40%;
+}
+.btn-encriptar{
+    font-size: 25px;
+    background-color: #0A3871;
+    border: 1px solid #000;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 50px;
+    width: 40%;
+}
+
+.btn-encriptar:hover{
+    background-color: #D8DFE8;
+    color: black;
+}
+
+.btn-desencriptar:hover{
+    background-color: #0A3871;
+    color: #D8DFE8;
+}
+
+.sesiondos{
+    background-color: #5078fa;
+    padding: 10px 0px 0px 0px;
+    float: left;
+    width: 50%; /* The width is 20%, by default */
+    height: 100%; 
+    text-align: center;
+}
+
+
+
+
+.contenedormuneco{
+  width: 60%;
+  height: 75%;
+  margin:0px auto;
+  background-color: #2196F3;
+  border-radius: 10px;
+}
+
+.muneco{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+.btn-copiar{
+    font-size: 25px;
+    background-color: #0A3871;
+    border: 1px solid #000;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 50px;
+    width: 40%;
+}
+
+.mensaje{
+    width: 60%;
+    height: 10%;
+    text-align: center;
+    margin: auto;
+    
+    font-size: 20px;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+}
+
+.btn-copiar:hover{
+    background-color: #D8DFE8;
+    color: black;
+}
+
+
+footer{ 
+    width: 100%;
+    height: 5%;
+    text-align: center;
+    color: #000;
+}
+
+@media screen and (max-width: 800px) {
+    .sesionuno, .sesiondos {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
